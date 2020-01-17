@@ -4,7 +4,7 @@ As you change the contents of the dict, the JSON file will be updated in
 real-time. Magic.
 """
 
-import collections
+import collections.abc as collections
 import os
 import json
 import warnings
